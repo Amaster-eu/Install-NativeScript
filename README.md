@@ -17,7 +17,7 @@ We have in the beginning:
 
 * June 2018
 * Hight Sierra 10.13.5
-* Xcode need to update to 9.4.1 (12.89 GB), download here: [developer.apple.com](https://developer.apple.com/download/more/)
+* Xcode need to update to 9.4.1 (**12.89 GB**), download here: [developer.apple.com](https://developer.apple.com/download/more/)
 
 ## <a name="homebrew"></a>1. Install Homebrew
 
@@ -33,7 +33,7 @@ Checking: `brew -v`. Result: `Homebrew 1.6.9`
   
 ## <a name="ruby"></a>2. Install last Ruby
 
-Checking: `ruby -v`. Result: `ruby 2.3.3p222` -- in 10.13.5 High Sierra
+Checking: `ruby -v`. Result: `ruby 2.3.3p222` -- default in 10.13.5 High Sierra
 
 2.5.1 (Recommended) -> [gorails.com/setup](https://gorails.com/setup/osx/10.13-high-sierra)
 
@@ -41,7 +41,7 @@ Checking: `ruby -v`. Result: `ruby 2.3.3p222` -- in 10.13.5 High Sierra
 
 > **If problems**
 <br>Error: Another active Homebrew process is already in progress. 
-<br>Solution: `sudo chown -R "$USER":admin /usr/local/var/homebrew`
+<br>Solution: `sudo chown -R "$USER":your-name /usr/local/var/homebrew`
 
 * Add **rbenv** to **bash** so that it loads every time you open a terminal: 
 
@@ -68,7 +68,10 @@ Without indication *sudo*: `brew install node`
 >Error: Another active Homebrew process is already in progress. Please wait for it to finish or terminate it to continue. 
 <br> Solution: `rm -rf /usr/local/var/homebrew/locks`
 
-Checking: `node -v`. Result: `v10.5.0` -- 8.11.3 LTS | 10.5.0 Current, source: [nodejs.org](https://nodejs.org/en/)
+Checking: `node -v`. Result: `v10.5.0` 
+
+Last version: 8.11.3 LTS | 10.5.0 Current, source: [nodejs.org](https://nodejs.org/en/)
+
 Checking: `npm -v`. Result: `6.1.0`
 
 > **Attention**:
