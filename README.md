@@ -1,4 +1,17 @@
-# <a name='top'>Installing NativeScript
+# <a name='top'>Install NativeScript on macOS
+
+Installation Steps:
+
+1. [Install Homebrew](#homebrew)
+2. [Install last Ruby](#ruby)
+3. [Install NodeJS](#node)
+4. [Install Command Line Tools for Xcode](#command-line)
+5. [Install Xcodeproj](#xcodeproj)
+6. [Install CocoaPods](#cocoapods)
+7. [Install Java Platform (JDK)](#jdk)
+8. [Install Android Studio](#android-studio)
+9. [Configuring Android Studio](#config)
+10. [Install NativeScript CLI](#nativescript)
 
 We have in the beginning:
 
@@ -6,7 +19,7 @@ We have in the beginning:
 * Hight Sierra 10.13.5
 * Xcode need to update to 9.4.1 (12.89 GB), download here: [developer.apple.com](https://developer.apple.com/download/more/)
 
-<a name="homebrew"><h2>1. Installing Homebrew</h2></a>
+## <a name="homebrew"></a>1. Install Homebrew
 
 `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
@@ -18,7 +31,7 @@ We have in the beginning:
 
 Checking: `brew -v`. Result: `Homebrew 1.6.9`
   
-<a name="ruby"><h2>2. Installing last Ruby</h2></a>
+## <a name="ruby"></a>2. Install last Ruby
 
 Checking: `ruby -v`. Result: `ruby 2.3.3p222` -- in 10.13.5 High Sierra
 
@@ -44,7 +57,7 @@ Install Ruby:
   
 Checking: `ruby -v`. Result: `ruby 2.5.1p57 (2018-03-29 revision 63029)`
   
-<a name="node"><h2>3. Installing NodeJS</h2></a>
+## <a name="node"></a>3. Install NodeJS
   
 Without indication *sudo*: `brew install node`
 
@@ -61,31 +74,31 @@ Checking: `npm -v`. Result: `6.1.0`
 > **Attention**:
 <br>Do *not install* NodeJS from the package from the official site! Use **Brew** to avoid the risk of getting confused in the dependencies and something will not "start".
   
-<a name="command-line"><h2>4. Installing Command Line Tools for Xcode</h2></a>
+## <a name="command-line"></a>4. Install Command Line Tools for Xcode
 
 Download [Command Line Tools](https://developer.apple.com/download/more/) (macOS 10.13) for Xcode 9.4.1 (**192.5 GB**) and install.
 
-<a name="xcodeproj"><h2>5. Installing Xcodeproj</h2></a>
+## <a name="xcodeproj"></a>5. Install Xcodeproj
 
 `sudo gem install xcodeproj`
 
-<a name="cocoapods"><h2>6. Installing CocoaPods</h2></a>
+## <a name="cocoapods"></a>6. Install CocoaPods
 
 `sudo gem install cocoapods`
 
-<a name="jdk"><h2>7. Installing Java Platform (JDK)</h2></a>
+## <a name="jdk"></a>7. Install Java Platform (JDK)
 
 [Download](http://www.oracle.com/technetwork/java/javase/downloads/) the **.dmg* package from the Oracle site. And install.
 
 Result: **jdk-10.0.1_osx-x64_bin.dmg**
 
-<a name="android-studio"><h2>8. Installing Android Studio</h2></a>
+## <a name="android-studio"></a>8. Install Android Studio
 
 [Download](http://www.oracle.com/technetwork/java/javase/downloads/) the *Android Studio* from the Android site. And install.
 
 Result: **Android Studio 3.1.3 for Mac (849 MB)**
 
-<a name="android-studio"><h2>9. Configuring the Shell Android Studio</h2></a>
+## <a name="config"></a>9. Configuring Android Studio
 
 Go into the settings of the Android Studio shell and install additional **SDK Platforms** Android versions 23-27 from the section and **SDK Build-tools** version 27.0.3:
 
@@ -121,7 +134,7 @@ Be sure to execute the command:
 
 `sudo xcode-select -r`
 
-<a name="android-studio"><h2>10. Install the NativeScript CLI</h2></a>
+## <a name="nativescript"></a>10. Install NativeScript CLI
 
 Without indication *sudo*: `npm install nativescript -g`
 
@@ -143,7 +156,7 @@ Additional material:
 
 ***
 
-<a name="remove"><h2>P.S. Remove NativeScript</h2></a>
+<a name="remove">P.S. Remove NativeScript</a>
 
 `sudo npm uninstall nativescript -g`
 
