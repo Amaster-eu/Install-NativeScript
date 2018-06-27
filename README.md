@@ -70,7 +70,7 @@ Without indication *sudo*: `brew install node`
 
 Checking: `node -v`. Result: `v10.5.0` 
 
-Last version: 8.11.3 LTS | 10.5.0 Current, source: [nodejs.org](https://nodejs.org/en/)
+Last version of **NodeJS**: 8.11.3 LTS | 10.5.0 Current, source: [nodejs.org](https://nodejs.org/en/)
 
 Checking: `npm -v`. Result: `6.1.0`
 
@@ -79,7 +79,7 @@ Checking: `npm -v`. Result: `6.1.0`
   
 ## <a name="command-line"></a>4. Install Command Line Tools for Xcode
 
-Download [Command Line Tools](https://developer.apple.com/download/more/) (macOS 10.13) for Xcode 9.4.1 (**192.5 GB**) and install.
+Download [Command Line Tools](https://developer.apple.com/download/more/) (macOS 10.13) for Xcode 9.4.1 (**192.5 MB**) and install.
 
 ## <a name="xcodeproj"></a>5. Install Xcodeproj
 
@@ -93,13 +93,13 @@ Download [Command Line Tools](https://developer.apple.com/download/more/) (macOS
 
 [Download](http://www.oracle.com/technetwork/java/javase/downloads/) the **.dmg* package from the Oracle site. And install.
 
-Result: **jdk-10.0.1_osx-x64_bin.dmg**
+Result: **jdk-10.0.1_osx-x64_bin.dmg (414.7 MB)**
 
 ## <a name="android-studio"></a>8. Install Android Studio
 
 [Download](http://www.oracle.com/technetwork/java/javase/downloads/) the *Android Studio* from the Android site. And install.
 
-Result: **Android Studio 3.1.3 for Mac (849 MB)**
+Result: **Android Studio 3.1.3 for Mac (889.9 MB)**
 
 ## <a name="config"></a>9. Configuring Android Studio
 
