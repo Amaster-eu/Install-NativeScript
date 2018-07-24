@@ -115,9 +115,9 @@ as shown in the figures below.
 
 Then enter:
 
-`echo "export JAVA_HOME=$(/usr/libexec/java_home)" >> ~/.profile`
+`echo "export JAVA_HOME=$(/usr/libexec/java_home)" >> ~/.bash_profile`
 
-`echo "export ANDROID_HOME=$HOME/Library/Android/sdk" >> ~/.profile`
+`echo "export ANDROID_HOME=$HOME/Library/Android/sdk" >> ~/.bash_profile`
 
 Thus, the *.profile* file will be created or added if it already exists.
 
@@ -136,6 +136,17 @@ Check the variables:
 Be sure to execute the command:
 
 `sudo xcode-select -r`
+
+> **If problems**
+<br>Error: Requirements check failed for JDK 1.8 or greater 
+<br>The problem arose when deploying *Ionic* to *Android*
+<br> Solution: make changes in **.bash_profile**:
+```
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home
+export ANDROID_HOME=/Users/amaster/Library/Android/sdk
+export PATH=${PATH}:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools
+export PATH=$PATH:/opt/gradle/gradle-4.9/bin
+```
 
 ## <a name="nativescript"></a>10. Install NativeScript CLI
 
